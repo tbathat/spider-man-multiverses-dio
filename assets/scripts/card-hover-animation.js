@@ -2,10 +2,12 @@ function handleMouseEnter() {
   this.classList.add(
     "s-card--hoovered"
   ); /* Modificação que vai ocorrer na função evento */
+  document.body.id = `${this.id}-hovered`;
 }
 
 function handleMouseLeave() {
   this.classList.remove("s-card--hoovered");
+  document.body.id = '';
 }
 
 function addEventListenersToCard() {
