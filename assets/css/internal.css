@@ -21,3 +21,22 @@
   background-color: grey;
   padding-left: 30px;
 }
+
+.navigator {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.navigator ul li {
+  margin: 60px 0;
+}
+.navigator ul li:first-child {
+  margin: 0;
+}
+.navigator ul li:last-child {
+  margin-bottom: 0;
+}
